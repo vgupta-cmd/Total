@@ -1,0 +1,13 @@
+# Never commit real student data
+data/
+*.xlsx
+!sample_data/*.xlsx
+
+# Streamlit secrets (contains the staff password if you use secrets.toml)
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
